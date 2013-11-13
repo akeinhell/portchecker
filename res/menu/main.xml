@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+a1528310787dd9c  a1528310787dd9c  admob_publisher_id    
+    <item 
+        android:id="@+id/mAdd" 
+        android:title="@string/msAdd" 
+        android:icon="@android:drawable/ic_menu_add"></item>
+
+
+</menu>

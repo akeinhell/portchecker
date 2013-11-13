@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/mcAdd" android:title="@string/msAdd"></item>
+    <item android:id="@+id/mcEdit" android:title="@string/mcsEdit"></item>
+    <item android:id="@+id/mcDelete" android:title="@string/mcsDelete"></item>
+
+    
+
+</menu>

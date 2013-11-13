@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Проверка портов</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="msAdd">Добавить</string>
+    <string name="msAdvCheck">Расширенная проверка</string>
+    <string name="mcsEdit">Редактировать</string>
+    <string name="mcsDelete">Удалить</string>
+    <string name="cdStatus">Статус</string>
+    <string name="btnsCheck">Проверить</string>
+    <string name="esIP">IP адрес</string>
+    <string name="esPort">Порт</string>
+    <string name="admob_publisher_id">a1528310787dd9c</string>
+
+</resources>

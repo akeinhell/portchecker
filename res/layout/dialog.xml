@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/eIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/esIP"
+        android:inputType="phone" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/ePort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eIP"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/esPort"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/savebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/canbtn"
+        android:layout_alignBottom="@+id/canbtn"
+        android:layout_alignRight="@+id/ePort"
+        android:text="@android:string/ok" />
+
+    <Button
+        android:id="@+id/canbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ePort"
+        android:layout_below="@+id/ePort"
+        android:text="@android:string/cancel" />
+
+>
+</RelativeLayout>
